@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.blok1 {
+    margin: 30px;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    background-color: red;
+}
+
+.blok2 {
+    margin: 30px;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.blok3 {
+    margin: 30px;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.blok4 {
+    margin: 30px;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    background-color: blue;
+}
+
+.foot {
+    margin: 30px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .head {
+        height: 100px;
+        width: 100%;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .blok1 {
+        margin: 30px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+
+    .blok2 {
+        margin: 30px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        background-color: yellow;
+    }
+
+    .blok3 {
+        margin: 30px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        background-color: blueviolet;
+    }
+
+    .blok4 {
+        margin: 30px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        background-color: blue;
+    }
+
+    .foot {
+        height: 100px;
+        width: 100%;
+        background-color: aqua;
+    }
+}
