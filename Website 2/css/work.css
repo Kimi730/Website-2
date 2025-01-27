@@ -1,128 +1,128 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    background-color: #DDD5CB;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Inria Sans;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: Itim;
+}
+
+.mastermind {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.foto-mastermind {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+.rechterzijde-1 {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+#mastermind-text {
+    position: relative;
+    width: 80%;
+    top: 60px;
+    left: 60px;
+}
+
+.pinkgoose {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.foto-pinkgoose {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+.rechterzijde-2 {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.project1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+
+.foto-project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+.rechterzijde-3 {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+p {
+    font-family: Inria Sans;
+    font-size: 30px;
+}
+
+#wat-leren {
+    font-family: Itim;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #DDD5CB;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.head {
-    width: 100%;
-    height: 100px;
-    background-color: aqua;
-    text-align: center;
-}
-
-.container1 {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: auto;
-}
-
-.blok1 {
-    margin: 30px;
-    height: 200px;
-    width: 500px;
-    text-align: center;
-    background-color: red;
-}
-
-.blok2 {
-    margin: 30px;
-    height: 200px;
-    width: 500px;
-    text-align: center;
-    background-color: yellow;
-}
-
-.container2 {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: auto;
-}
-
-.blok3 {
-    margin: 30px;
-    height: 200px;
-    width: 500px;
-    text-align: center;
-    background-color: blueviolet;
-}
-
-.blok4 {
-    margin: 30px;
-    height: 200px;
-    width: 500px;
-    text-align: center;
-    background-color: blue;
-}
-
-.foot {
-    margin: 30px;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    background-color: red;
-}
-
-@media only screen and (max-width: 600px) {
-
-
-    .head {
-        height: 100px;
-        width: 100%;
-    }
-
-    .container1 {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-    }
-
-    .container2 {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-    }
-
-    .blok1 {
-        margin: 30px;
-        height: 100px;
-        width: 100%;
-        text-align: center;
-        background-color: red;
-    }
-
-    .blok2 {
-        margin: 30px;
-        height: 100px;
-        width: 100%;
-        text-align: center;
-        background-color: yellow;
-    }
-
-    .blok3 {
-        margin: 30px;
-        height: 100px;
-        width: 100%;
-        text-align: center;
-        background-color: blueviolet;
-    }
-
-    .blok4 {
-        margin: 30px;
-        height: 100px;
-        width: 100%;
-        text-align: center;
-        background-color: blue;
-    }
-
-    .foot {
-        height: 100px;
-        width: 100%;
-        background-color: aqua;
-    }
+#wwwkimi {
+    font-family: Itim;
 }

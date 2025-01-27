@@ -155,17 +155,19 @@ h2 {
     font-family: Itim;
 }
 
-#text-fitness{
+#text-fitness {
     width: 80%;
     position: relative;
     left: 50px;
 }
-#text-hotpot{
+
+#text-hotpot {
     width: 80%;
     position: relative;
     left: 50px;
 }
-#text-java{
+
+#text-java {
     width: 80%;
     position: relative;
     left: 50px;
@@ -173,7 +175,7 @@ h2 {
 
 footer {
     width: 100%;
-    height: 150px; 
+    height: 150px;
     background-color: #DDD5CB;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
